@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/ablation');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,106 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  position: relative;
+  height: 800px;
+  max-height: 800px;
+  min-height: 600px; 
+  width: 100%;
+  background:
+    url('./assets/body.png') 
+    repeat center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F3E9E1;
+   /* padding: 10px; */
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+li {
+  margin: 15px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Ablation', sans-serif;
+}
+
+/* Home */
+header {
+  position: relative;
+  height: 900px;
+  max-height: 900px;
+  min-height: 700px; 
+  width: 100%;
+  background:
+    url('./assets/header.png') 
+    no-repeat center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+button {
+  padding: 15px 50px;
+  border-radius: 50px;
+  border: none;
+  background-color: #652311;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 90px;
+  font-weight: 600;
+}
+
+#heart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#menu {
+  background-color: #F3E9E1;
+  padding: 20px;
+  margin: 30px;
+}
+
+#chocolate-strawberries {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+#chocolate {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #652311;
+}
+
+#strawberries1 {
+ display: block;
 }
